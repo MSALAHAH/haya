@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Alexandria', sans-serif;
   }
   
-  /* @font-face {
+  @font-face {
     font-family: "SF pro AR Disply semibold";
     src: url('https://raw.githubusercontent.com/MSALAHAH/inc/main/fonts/SFProARsemibold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  } */
+  }
   
   body {
+    font-family: 'Alexandria', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
