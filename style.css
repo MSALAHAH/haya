@@ -4,20 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Alexandria', sans-serif;
 }
 
-@font-face {
+/* @font-face {
   font-family: "SF pro AR Disply semibold";
   src: url('https://raw.githubusercontent.com/MSALAHAH/inc/main/fonts/SFProARsemibold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'SF Pro AR Display Semibold', sans-serif;
   background: 
       linear-gradient(135deg,#0000 20.5%,rgba(4, 20, 38, 0.81) 0 29.5%,#0000 0) 0 16px,
       linear-gradient( 45deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%) 32px 0,
@@ -29,7 +29,6 @@ body {
 }
 
 header {
-  font-family: 'SF Pro AR Display Semibold', sans-serif;
   /* position: fixed; */
   top: 0;
   left: 0;
@@ -93,13 +92,12 @@ header .navbar {
 }
 
 .hero-section .content p {
-  font-weight: 300;
+  font-weight: 500;
   max-width: 600px;
   margin-top: 15px;
 }
 
 .hero-section .content button {
-  font-family: 'SF Pro AR Display Semibold', sans-serif;
   background: #fff;
   padding: 12px 30px;
   border: none;
@@ -198,7 +196,6 @@ header .navbar {
 }
 /* FOOTER STYLING */
 .footer {
-  font-family: 'Alexandria', sans-serif;
   position: relative;
   width: 100%;
   background: #10182F;
