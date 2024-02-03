@@ -57,7 +57,12 @@ header .navbar {
 
 .hero-section {
   height: 100vh;
-  background-image: url(./1929e9ba39e5ba29cfe2b09b95b7f0dd.jpg);
+  background: 
+      linear-gradient(135deg,#0000 20.5%,rgba(4, 20, 38, 0.81) 0 29.5%,#0000 0) 0 16px,
+      linear-gradient( 45deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%) 32px 0,
+      linear-gradient(135deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%,rgba(4, 20, 38, 0.81) 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%,rgba(4, 20, 38, 0.81) 0 67%,#0000 0 83%,rgba(4, 20, 38, 0.81) 0 92%,#0000 0),
+      #000000;
   background-position: center;
   background-size: cover;
   display: flex;
