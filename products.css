@@ -85,8 +85,11 @@ header .navbar {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
     gap: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   
   .products-section .box-container .box {
@@ -96,6 +99,7 @@ header .navbar {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     padding: 25px 25px;
+    max-width: 100vw;
   }
   
   .products-section .box-container .box:hover {
