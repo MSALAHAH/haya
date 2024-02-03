@@ -103,6 +103,7 @@
   .contact-section .box-container .box .link {
     display: block;
     font-size: 18px;
+    padding: 0px 30px 0px 0px;
     line-height: 2;
     color: #777;
   }
