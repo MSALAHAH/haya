@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="./img/16-16.png">
+    <title>الحياة بلاست - تواصل معنا</title>
+    <link rel="stylesheet" href="contactUs.css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#"><span>.</span>الحياة بلاست<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="./index.html">الرئيسية</a></li>
+          <li><a href="./products.html">المنتجات</a></li>
+          <li><a href="./raw.html">الخامات</a></li>
+          <li><a href="./contactUs.html">تواصل معنا</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="box-container">
+
+            <div class="box">
+               <h3>مواعيد العمل الاسبوعية</h3>
+               <p> <span>الأحد :</span> 10:00 ص - 09:00 م </p>
+               <p> <span>الاثنين :</span>  10:00 ص - 09:00 م </p>
+               <p> <span>الثلاثاء :</span>  10:00 ص - 09:00 م </p>
+               <p> <span>الاربعاء :</span>  10:00 ص - 09:00 م </p>
+               <p> <span>الخميس :</span>  10:00 ص - 09:00 م </p>
+               <p> <span>الجمعة :</span> مغلق - اجازة اسبوعية </p>
+               <p> <span>السبت :</span>  10:00 ص - 09:00 م </p>
+            </div>
+      
+            <div class="box">
+               <h3>معلومات التواصل</h3>
+               <a href="#" class="link"> 0109-255-6388 </a>
+               <a href="#" class="link"> 0109-002-9009 </a>
+               <a href="#" class="link"> haya.plast@gmail.com </a>
+               <a href="#" class="link"> مدينة العاشر من رمضان, مصر - 111111</a>
+            </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>معلومات</h4>
+          <ul class="links">
+            <li><a href="#">النشاط التجاري</a></li>
+            <li><a href="#">الموقع الجغرافي</a></li>
+            <li><a href="#">مطور الموقع</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>تصفح</h4>
+          <ul class="links">
+            <li><a href="./index.html">الرئيسية</a></li>
+            <li><a href="./products.html">المنتجات</a></li>
+            <li><a href="./raw.html">الخامات</a></li>
+            <li><a href="./contactUs.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+            <img style="height: 150px; width: 150px;" src="./img/HayaLogo.jpg">
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      // Toggle mobile menu on hamburger button click
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+      // Close mobile menu on close button click
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+  </body>
+</html>
