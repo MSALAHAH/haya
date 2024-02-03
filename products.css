@@ -79,6 +79,7 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
 
   .products-section h1 {
     text-align: center;
+    text-shadow: 1px 1px 11px rgb(255 255 255);
     padding: 3rem 2rem 4rem 2rem;
   }
   
@@ -97,7 +98,7 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
   .products-section .box-container .box {
     text-align: center;
     background: #fff;
-    border: 0.2rem solid #334;
+    border: none;
     border-radius: 8px;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -194,16 +195,6 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
       color: #000;
     }
 
-
-
-
-
-
-
-
-
-
-
     .footer .footer-row {
         padding: 10px;
     }
@@ -212,7 +203,7 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
     .footer {
       position: relative;
       width: 100%;
-      background: #10182F;
+      background: #03101f;
       border-radius: 6px;
       margin-top: auto;
     }
