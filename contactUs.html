@@ -6,7 +6,11 @@
     <link rel="icon" type="image/png" sizes="16x16"
         href="./img/16-16.png">
     <title>الحياة بلاست - تواصل معنا</title>
-    <link rel="stylesheet" href="contactUs.css">
+    <link rel="stylesheet" href="./css/contactUs.css">
+    <link rel="stylesheet" href="./css/header&nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/fontSettings.css">
+    <script src="./script.js"></script>
     <!-- Google Fonts Links For Icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
   </head>
@@ -43,7 +47,7 @@
                <a href="tel:01092556388" class="link"> 0109-255-6388 </a>
                <a href="tel:01090029009" class="link"> 0109-002-9009 </a>
                <a href="mailto:haya.plast@gmail.com" class="link"> haya.plast@gmail.com </a>
-               <a href="https://www.google.com/maps?q=مدينة العاشر من رمضان, مصر" class="link"> مدينة العاشر من رمضان, مصر - 111111</a>
+               <a href="https://www.google.com/maps?q=مدينة العاشر من رمضان, مصر" class="link"> مدينة العاشر من رمضان, مصر</a>
             </div>
     </section>
 
@@ -52,9 +56,7 @@
         <div class="footer-col">
           <h4>معلومات</h4>
           <ul class="links">
-            <li><a href="#">النشاط التجاري</a></li>
-            <li><a href="#">الموقع الجغرافي</a></li>
-            <li><a href="#">مطور الموقع</a></li>
+            <li><a href="https://msalahah.github.io/R4">مطور الموقع</a></li>
           </ul>
         </div>
 
@@ -71,19 +73,10 @@
             <img style="height: 150px; width: 150px;" src="./img/HayaLogo.jpg">
         </div>
       </div>
-    </section>
 
-    <script>
-      const header = document.querySelector("header");
-      const hamburgerBtn = document.querySelector("#hamburger-btn");
-      const closeMenuBtn = document.querySelector("#close-menu-btn");
-
-      // Toggle mobile menu on hamburger button click
-      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
-
-      // Close mobile menu on close button click
-      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
-    </script>
-    
+      <div class="credit">
+        <p>© Mohammed Melok | All rigths reserved</p>
+      </div>
+    </section>    
   </body>
 </html>

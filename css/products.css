@@ -213,7 +213,7 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 3.5rem;
-      padding: 35px 20px 30px 50px;
+      padding: 20px 30px 0px 30px;
     }
     
     .footer-row .footer-col {
@@ -242,4 +242,12 @@ background: linear-gradient(146deg, #05316e 0%, rgba(15, 135, 87, 0.8) 50%, #008
     
     .footer-col .links li a:hover {
       color: #fff;
+    }
+
+    .footer .credit {
+      color: #878787;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
     }
