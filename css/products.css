@@ -69,6 +69,7 @@ body {
 
 .products-section .box-container .box:hover {
   background: #334;
+  box-shadow: rgb(255 255 255 / 50%) 1px 1px 20px 1px;
 }
 
 .products-section .box-container .box:hover h3 {
@@ -85,13 +86,13 @@ body {
 }
 
 .products-section .box-container .box h3 {
-  font-size: 28px;
+  font-size: 20px;
   color: #334;
   padding: 1rem 0;
 }
 
 .products-section .box-container .box p {
-  font-size: 22px;
+  font-size: 14px;
   line-height: 2;
   color: #777;
 }
