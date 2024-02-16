@@ -103,3 +103,18 @@ body {
 .contact-section .box-container .box .share a:hover {
   background: #2b69c5;
 }
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Add margin between contact info rows */
+}
+
+.map-icon {
+  display: flex;
+  align-items: center;
+}
+
+.map-icon .link {
+  margin-right: 5px; /* Add space between map icon and text */
+}
