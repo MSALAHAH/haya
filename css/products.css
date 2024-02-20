@@ -43,6 +43,44 @@ body {
   text-shadow: 1px 1px 11px rgb(0, 0, 0);
   padding: 25px;
 }
+/*=============== FILTERS TABS===============*/
+.tabs {
+  background-color: #535353;
+  display: flex;
+  justify-content: space-between;
+  width: 332px;
+  margin: 3rem auto;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.tab {
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: #f1f2f4;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: .3s;
+}
+
+.tab.active {
+  background-color: #159917;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab-content.active {
+  display: block;
+}
 
 .products-section .box-container {
   padding: 25px;
