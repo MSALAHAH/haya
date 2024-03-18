@@ -14,7 +14,7 @@ function shareProduct(productCard) {
   var productDescription = productCard.querySelector('.product-description').innerText;
 
   // Construct the message to share
-  var message = "Check out this product: " + "\n" + productName + "\n" + productDescription;
+  var message = "Is the below product available? " + "\n" + productName + "\n" + productDescription;
 
   // Open WhatsApp with pre-filled message
   var whatsappURL = "https://wa.me/?text=" + encodeURIComponent(message);
